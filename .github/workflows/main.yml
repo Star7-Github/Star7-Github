@@ -14,15 +14,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          config_timezone: Asia/Shanghai
       - name: Default metrics
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Shanghai
       - name: Half-year calendar
         uses: lowlighter/metrics@latest
         with:
