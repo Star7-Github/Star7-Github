@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          config_timezone: China/Beijing
+          config_timezone: Asia/Shanghai
       - name: Default metrics
         uses: lowlighter/metrics@latest
         with:
