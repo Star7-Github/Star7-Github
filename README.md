@@ -1,7 +1,8 @@
 # Star7 ✨
 ## Hi~👋
 <picture>
-  <img src="/github-metrics.svg" alt="Metrics">
+  <img src="/metrics.base.svg" alt="Metrics">
+  <img src="/metrics.plugin.isocalendar.svg" alt="Metrics">
 </picture>
 <!--
 **Star7-Github/Star7-Github** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
